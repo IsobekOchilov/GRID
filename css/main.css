@@ -1,0 +1,130 @@
+.card1 {
+    grid-area: card1;
+    background-color: blue;
+}
+
+.card2 {
+    grid-area: card2;
+    background-color: gold;
+}
+
+.card3 {
+    grid-area: card3;
+    background-color: purple;
+}
+
+.card4 {
+    grid-area: card4;
+    background-color: red;
+}
+
+
+.cards1 {
+    display: grid;
+    grid-area: cards1;
+    grid-template-areas: "card1 card1"
+        "card1 card1"
+        "card2 card2"
+        "card3 card4";
+    grid-gap: 10px;
+
+}
+
+.card5 {
+    grid-area: card5;
+    background-image: url("../img/Без\ названия\ \(2\).jfif");
+    height: 100%;
+}
+
+.card6 {
+    grid-area: card6;
+    background-image: url("../img/Без\ названия.jfif");
+}
+
+.card7 {
+    grid-area: card7;
+    background-color: rgb(15, 206, 107);
+    background-image: url("../img/Без\ названия\ \(1\).jfif");
+}
+
+.card8 {
+    grid-area: card8;
+    background-image: url("../img/images\ \(1\).jfif");
+}
+
+
+
+.car1 {
+    grid-area: car1;
+    display: grid;
+    grid-template-areas: "card5"
+        "card5"
+        "card5"
+        "card6"
+        "card6";
+    grid-gap: 10px;
+
+}
+
+.car2 {
+    grid-area: car2;
+    display: grid;
+    grid-template-areas: "card7"
+        "card7"
+        "card8"
+        "card8"
+        "card8";
+        
+    grid-gap: 10px;
+
+}
+
+
+
+.cards2 {
+    display: grid;
+    grid-area: cards2;
+    grid-template-areas: "car1 car2";
+    grid-gap: 10px;
+
+}
+
+.cards3 {
+    display: grid;
+    grid-area: cards3;
+    grid-template-areas: "card10 card10"
+        "card11 card12"
+        "card13 card13"
+        "card13 card13";
+    grid-gap: 10px;
+}
+.card10 {
+    grid-area: card10;
+    background-image: url("../img/images\ \(1\).jfif");
+}
+
+.card11 {
+    grid-area: card11;
+    background-image: url("../img/images\ \(3\).jfif");
+}
+
+.card12 {
+    grid-area: card12;
+    background-image: url("../img/images\ \(4\).jfif");
+}
+
+.card13 {
+    grid-area: card13;
+    background-image: url("../img/960__80_1649725895.jpg");
+}
+
+
+.container {
+    width: 1500px;
+    height: 660px;
+     margin: 0 auto; 
+    display: grid;
+    grid-template-areas: "cards1 cards1 cards2 cards2 cards3 cards3";
+    grid-gap: 10px;
+    margin-left: -250px;
+}
